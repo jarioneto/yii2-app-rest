@@ -1,7 +1,7 @@
 {
-    "name": "yiisoft/yii2-app-basic",
-    "description": "Yii 2 Basic Project Template",
-    "keywords": ["yii2", "framework", "basic", "project template"],
+    "name": "yiisoft/yii2-app-rest",
+    "description": "Yii 2 REST Project Template",
+    "keywords": ["yii2", "framework", "rest", "project template"],
     "homepage": "http://www.yiiframework.com/",
     "type": "project",
     "license": "BSD-3-Clause",
@@ -15,9 +15,7 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.4.0",
-        "yiisoft/yii2": "~2.0.5",
-        "yiisoft/yii2-bootstrap": "~2.0.0",
-        "yiisoft/yii2-swiftmailer": "~2.0.0"
+        "yiisoft/yii2": "~2.0.5"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",
@@ -41,13 +39,9 @@
             "setPermission": [
                 {
                     "runtime": "0777",
-                    "web/assets": "0777",
                     "yii": "0755"
                 }
             ],
-            "generateCookieValidationKey": [
-                "config/web.php"
-            ]
         },
         "asset-installer-paths": {
             "npm-asset-library": "vendor/npm",
